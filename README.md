@@ -12,9 +12,7 @@ Do not have a network cable connected to the promiscuous port
 
 -> enable SSH with password
 
--> Add to Ubuntu Pro
-	ubuntu.com/pro/activate
-
+By default Ubuntu will only create a 100G hard disk.  Malcolm will need as much hard disk space as is available for storing data and PCAPs.
 #### Expand lvm to use entire disk
 * In FILE SYSTEM SUMMARY
 * Down arrow to USED DEVICES
