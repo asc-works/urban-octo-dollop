@@ -25,8 +25,11 @@ Do not have a network cable connected to the promiscuous port
 
 
 -> **Admin name**: Malcolm
+
 -> **System name**: mlclm01 (*change number as needed*)
+
 -> **User name**: malcolm
+
 -> **User password**: (*create a sufficiently strong password*)
 
 Select Install OpenSSH server
@@ -105,7 +108,8 @@ NetBox Settings
 Capture Live Network Traffic -> Yes
 
 Capture Live Network Traffic Settings -> Capture Interface(s) ->. <<<<enter the promiscuous port ID found earlier>>>
-  
+```  
+
 `Save and Continue`    twice
 
 Review the proposed configuration then select `Yes`.  It will take about a minute for the configuration to complete.  It will be complete when you see (SUCCESS) [INSTALLER] message
@@ -150,6 +154,8 @@ RemainAfterExit=yes
 WantedBy=multi-user.target
 ```
 
+Save the file then get the service started using the following commands.
+
 ```
 sudo systemctl daemon-reload
 sudo systemctl enable promisc-port
@@ -158,6 +164,20 @@ sudo systemctl start promisc-port
 ## Start Malcolm
 `./scripts/start`
 
-First start will take about 5 minutes
+First start will take about 5 minutes.  When it is complete, it will provide a message showing...
+```
+Started Malcolm
+
+
+Malcolm services can be accessed at https://<<server ip address>>/
+```
+
+To verify that Malcolm is fully running, run
+
+`./scripts/status`
+
+Each item should be showing as healthy.  If not issue `./scripts/restart`
+
+When it completes, run the status script again.
 
 You should now be able to access the Malcolm dashboard from the IP address for the server using https.
