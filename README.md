@@ -1,11 +1,17 @@
-# urban-octo-dollop
+# Steps we use to build a Malcolm Server
 These are the steps I take to install Malcolm (https://malcolm.fyi/) from Idaho National Labs on Ubuntu server.
 
-# Malcolm Build	
 Based on installation example using Ubuntu 24.04 LTS 
 (https://malcolm.fyi/docs/ubuntu-install-example.html#InstallationExample)
 
+***Ingredients***
+Ubuntu server LTS
+Malcolm
+
+***Instructions***
+
 Create bootable USB with Ubuntu server using LTS version
+
 ## Ubuntu Server OS install
 
 Do not have a network cable connected to the promiscuous port
