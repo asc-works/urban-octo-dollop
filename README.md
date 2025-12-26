@@ -4,11 +4,11 @@ These are the steps I take to install Malcolm (https://malcolm.fyi/) from Idaho 
 Based on installation example using Ubuntu 24.04 LTS 
 (https://malcolm.fyi/docs/ubuntu-install-example.html#InstallationExample)
 
-##Ingredients##
+## Ingredients
 * Ubuntu server LTS
 * Malcolm
 
-##Instructions##
+## Instructions
 
 Create bootable USB with Ubuntu server using LTS version
 
