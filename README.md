@@ -128,8 +128,8 @@ Reboot
 
 ### Configuration Authentication
 
-`cd Malcolm
-./scripts/auth_setup`
+```cd Malcolm
+./scripts/auth_setup```
 
 Accepts the defaults. Fill in the information as needed.  **Note**: After the message about adding additional account pops up, it will take about a minute before it moves on to the next configuration item.
 
