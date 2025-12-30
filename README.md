@@ -95,7 +95,7 @@ Clean Up Artifacts Settings
 Zeek Analysis Settings
 -> Enable Zeek File Extraction -> Yes
 
-Zeek File Extraction Settings -> File Extraction Settings -> Extracted File Percent Threshold -> 5G
+Zeek File Extraction Settings -> File Extraction Settings -> Extracted File Size Threshold -> 5G
 
 Zeek File Extraction Settings -> Preserved Files HTTP Server Settings -> Downloaded Preserved File Password -> infected
 
