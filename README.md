@@ -86,6 +86,8 @@ sudo ./scripts/install.py
 Container Runtime Settings
 -> Malcolm Restart Policy -> Always	
 
+Clean Up Artifacts -> Yes
+
 Clean Up Artifacts Settings
 -> Arkime PCAP Management Settings -> Delete PCAP Threshold -> 7%
 -> Delete Old Indices Settings -> Index Prune Threshold -> 75%
